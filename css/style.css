@@ -1,0 +1,69 @@
+body{
+    background-color: #9FE2BF;
+}
+/* -------------------todo-input > css start------------ */
+.todo_input{
+    height: 100vh;
+    width: auto;
+    background-image: url(../img/background_image.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.search-area{
+    position: absolute;
+    display: block;
+    top:40%;
+    left:37%;
+}
+.search-area h2{
+    color: #bad4ff;
+    font-size: 40px;
+    font-weight: bold;
+}
+.search-area input{
+    height: 45px;
+    padding: 0 75% 0 6%;
+    border-radius: 30px;
+}
+.search-area button{
+    margin-left: 150px;
+    background: #11775b;
+    color: #f3efe7;
+    border-radius: 30%;
+    height: 47px;
+}
+.search-area button:hover{
+    background:#179e79;
+    color:#f3efe7;
+}
+/* -------------------todo_list.php > css start------------ */
+.project-title h2{
+    padding: 3% 0 2% 0;
+    color: #3b423e;
+    font-weight: bold;
+    position: relative;
+}
+.project-title h2::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #3b423e;
+    height: 2px;
+    width: 165px;
+    left: calc(84% - 40%);
+}
+.butt a{
+    margin: 0 0 1% 24%;
+}
+.todo-list-area{
+    width: 700px;
+    margin:0 0 8% 24%;
+}
+.todo-list-area .card{
+    box-shadow:6px 10px 8px #7b7a7f;
+}
+.card-area h5{
+    color: #545073;
+}
